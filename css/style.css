@@ -1,0 +1,65 @@
+.box1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: gray;
+    margin-top: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 160px;
+}
+
+.box1:hover {
+    background-color: whitesmoke;
+    transition: 2s ease-in-out;
+
+    .fa-eye {
+        font-size: 40px;
+        color: grey;
+        transition: 1s ease-in-out;
+    }
+}
+
+.fa-eye {
+    font-size: 20px;
+}
+
+.fa-eye-slash {
+    font-size: 20px;
+
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: gray;
+    margin-top: 150px;
+    border-radius: 20px;
+    margin-left: 310px;
+    cursor: pointer;
+    padding-top: 160px;
+}
+.box2:hover {
+    background-color: whitesmoke;
+    transition: 2s ease-in-out;
+
+    .fa-eye-slash {
+        font-size: 40px;
+        color: grey;
+        transition: 1s ease-in-out;
+    }
+}
+.text {
+    width: 400px;
+    background-color: gray;
+    height: 50px;
+    border-radius: 20px;
+    left: 350px;
+    position: relative;
+    padding-top: 10px;
+    font-family: cursive;
+}
+.hide{
+    display: none;
+}
